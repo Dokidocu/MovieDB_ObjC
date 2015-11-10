@@ -5,10 +5,18 @@ There is no test integration for now.
 
 > This project illustrates some very basic features in objective-c and how I code.
 
+##iOS features
+* UITableView
+* Autolayout
+* UICollectionView
+* UIScrollView
+
 ##Functionalities
 * Get a list of Movies (top, upcoming, now, popular)
 * Get a list of TvShows (popular, on the air, airing, top rated)
 * Display Movie/TvShow details
+
+> Suitable for iPhones only
 
 ##Structure
 - Controllers
@@ -27,4 +35,5 @@ There is no test integration for now.
 * Core data integration and persistence
 * MapKit/CoreLocation
 * Rating
+* iPad version
 * ...
