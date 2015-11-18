@@ -5,11 +5,22 @@ There is no test integration for now.
 
 > This project illustrates some very basic features in objective-c and how I code.
 
+## Tools/Tech specs
+- XCode 7.1
+- Swift2
+- Cocoapods :
+    - AFNetworking
+    - MBProgressHUD
+
+> Cocoapod needs to be installed !
+
 ##iOS features
 * UITableView
 * Autolayout
 * UICollectionView
 * UIScrollView
+* Asynchronous
+* Unit Test
 
 ##Functionalities
 * Get a list of Movies (top, upcoming, now, popular)
@@ -31,7 +42,6 @@ There is no test integration for now.
 - External Files
 
 ##Future improvement
-* Test integration
 * Core data integration and persistence
 * MapKit/CoreLocation
 * Rating
