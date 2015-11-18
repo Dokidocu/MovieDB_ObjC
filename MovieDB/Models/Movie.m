@@ -120,7 +120,7 @@ static NSMutableArray *popularMovies;
         return @"";
     }
     NSMutableString *str = [[NSMutableString alloc]init];
-    for (int i = 0; i < self.genres.count; i++) {
+    for (int i = 0; i < self.genres.count-1; i++) {
         [str appendString:[[self.genres objectAtIndex:i] objectForKey:@"name"]];
         [str appendString:@", "];
     }
